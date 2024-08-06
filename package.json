@@ -1,0 +1,18 @@
+{
+  "name": "wi-jungle-scientific-calculator",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build-mac": "electron-packager . ScientificCalculator --platform=darwin --arch=arm64 --out=dist --overwrite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^31.3.1",
+    "electron-packager": "^17.1.2"
+  }
+}

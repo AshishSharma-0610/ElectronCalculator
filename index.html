@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Login Page -->
+    <div class="login-page">
+        <div class="login-container">
+            <div class="login-placeholder">
+
+                <!-- Placeholder for image -->
+            </div>
+            <div class="login-form">
+                <h2>Scientific Calculator</h2>
+                <input type="text" placeholder="Username" id="username">
+                <input type="password" placeholder="Password" id="password">
+                <button id="login-btn">Log In</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Calculator Page -->
+    <div class="calculator-page" style="display: none;">
+        <aside class="sidebar">
+            <div class="sidebar-placeholder">
+
+                <!-- Placeholder for logo image -->
+            </div>
+            <nav>
+                <button>Calculator</button>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <header>
+                <h1>Calculator</h1>
+                <div class="profile-placeholder">
+                    <!-- Placeholder for profile image -->
+                    <span>Hello User</span>
+                </div>
+            </header>
+
+            <div class="calculator">
+                <div class="display">0</div>
+                <div class="buttons">
+                    <!-- Row 1 -->
+                    <button>Rad</button>
+                    <button>Deg</button>
+                    <button>x!</button>
+                    <button>(</button>
+                    <button>)</button>
+                    <button>%</button>
+                    <button>AC</button>
+
+                    <!-- Row 2 -->
+                    <button>Inv</button>
+                    <button>sin</button>
+                    <button>ln</button>
+                    <button class="num">7</button>
+                    <button class="num">8</button>
+                    <button class="num">9</button>
+                    <button>/</button>
+
+                    <!-- Row 3 -->
+                    <button>π</button>
+                    <button>cos</button>
+                    <button>loge</button>
+                    <button class="num">4</button>
+                    <button class="num">5</button>
+                    <button class="num">6</button>
+                    <button>x</button>
+
+                    <!-- Row 4 -->
+                    <button>e</button>
+                    <button>tan</button>
+                    <button>√</button>
+                    <button class="num">1</button>
+                    <button class="num">2</button>
+                    <button class="num">3</button>
+                    <button>-</button>
+
+                    <!-- Row 5 -->
+                    <button>Ans</button>
+                    <button>EXP</button>
+                    <button>xʸ</button>
+                    <button class="num">0</button>
+                    <button class="num">.</button>
+                    <button id="equal">=</button>
+                    <button>+</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="renderer.js"></script>
+</body>
+
+</html>
